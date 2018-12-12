@@ -8,6 +8,7 @@ body {
     height: 60px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 #nav ul {
@@ -39,9 +40,9 @@ body {
     height: calc(100vh - 60px);
     align-items: center;
     justify-content: center;
-    padding-top: 60px;
     overflow: hidden;
     position: relative;
+    top: 60px;
 }
 
 #start h1 {
@@ -80,4 +81,5 @@ body {
 
 form {
     display: block;
+    padding: 2cm;
 }
