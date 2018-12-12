@@ -35,16 +35,26 @@ body {
 }
 
 #start {
-    background-image: ;
+    display: flex;
     height: calc(100vh - 60px);
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     padding-top: 60px;
+    overflow: hidden;
+}
+
+#start h1 {
+    position: relative;
+    top: 0;
+}
+
+#sec2 {
+    height: 100vh;
+    background-color: #A2C3DF;
 }
 
 #logo {
     height: 85%;
-    border: 2px solid black;
-    border-radius: 100%;
 }
 
 #logoTekst {
@@ -52,3 +62,12 @@ body {
     width: 50%;
     background-color: #E3E3E3;
 }
+
+#reklame {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+courgette
