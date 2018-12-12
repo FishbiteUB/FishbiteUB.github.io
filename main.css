@@ -70,4 +70,6 @@ body {
     z-index: -1;
 }
 
-courgette
+form {
+    display: block;
+}
