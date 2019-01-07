@@ -78,13 +78,13 @@
     </form>
 
     <script>
-        myFunc(){
+        function myFunc() {
         var typ="50";
         if (document.getElementById("a1").checked){
             typ = "50";
         } else if(document.getElementById("a2").checked){
             typ="100";
-        };
+        }
 
         var cuant="1";
         if (document.getElementById("b1").checked){
@@ -107,7 +107,7 @@
             typ="9";
         } else if(document.getElementById("b10").checked){
             typ="10";
-        };
+        }
 
         var pris=0;
         pris = parseInt(typ) * parseInt(cuant);
