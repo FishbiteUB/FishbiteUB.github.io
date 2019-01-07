@@ -86,4 +86,5 @@ body {
 form {
     display: block;
     padding: 2cm;
+    border-radius: 4px;
 }
