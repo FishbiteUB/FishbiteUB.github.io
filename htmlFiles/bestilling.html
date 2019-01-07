@@ -23,10 +23,10 @@
         <p>Hvilken størrelse ønsker du?</p>
 
         <input type="radio" name="entry.1495122074" id="a1" value="50 gram"/>
-        <label for="a1">50 gram</label>
+        <label for="a1">50 gram 0kr</label>
 
         <input type="radio" name="entry.1495122074" id="a2" value="100 gram"/>
-        <label for="a2">100 gram</label>
+        <label for="a2">100 gram 0kr</label>
 
         <br><br><br>
 
@@ -71,9 +71,55 @@
         <br><br><br>
 
         <label for="nummer">Nummeret ditt, slik at vi kan oppdatere deg om bestillingen din og avtale levering</label><br>
-        <input[type=number] name="entry.856103581" type="text" id="nummer"/>
-
-        <input class="button" type="submit" value="Submit">
+        <input name="entry.856103581" type="text" id="nummer"/>
+        <br>
+        Pris: <div id="pris">0</div>kr
+        <input class="button" type="submit" value="Bestill">
     </form>
+
+    <script>
+        function myFunc() {
+        var typ="50";
+        if (document.getElementById("a1").checked){
+            typ = "50";
+        } else if(document.getElementById("a2").checked){
+            typ="100";
+        }
+
+        var cuant="1";
+        if (document.getElementById("b1").checked){
+            cuant = "1";
+        } else if(document.getElementById("b2").checked){
+            cuant="2";
+        } else if(document.getElementById("b3").checked){
+            cuant="3";
+        } else if(document.getElementById("b4").checked){
+            cuant="4";
+        } else if(document.getElementById("b5").checked){
+            cuant="5";
+        } else if(document.getElementById("b6").checked){
+            cuant="6";
+        } else if(document.getElementById("b7").checked){
+            cuant="7";
+        } else if(document.getElementById("b8").checked){
+            cuant="8";
+        } else if(document.getElementById("b9").checked){
+            cuant="9";
+        } else if(document.getElementById("b10").checked){
+            cuant="10";
+        }
+        
+
+        var pris=0;
+        pris = parseInt(typ) * parseInt(cuant);
+        document.getElementById("pris").innerHTML=pris;
+        }
+
+        document.addEventListener("click", myFunc)
+
+
+
+    
+    </script>
 
 </body>
