@@ -78,6 +78,8 @@ body {
 
 #reklame {
     position: relative;
+    width: 500px;
+    height: 500px;
     top: 0;
     left: 0;
     z-index: -1;
