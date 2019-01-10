@@ -3,9 +3,10 @@ html {
 }
 
 body {
-    margin: 0;
     background-color: #A2C3DF;
+    color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 #nav {
@@ -13,7 +14,6 @@ body {
     height: 60px;
     position: fixed;
     width: 100%;
-    z-index: 1;
 }
 
 #nav ul {
@@ -47,6 +47,10 @@ body {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+}
+
+#front-page h1, h2 {
+    font-size: 250%;
 }
 
 .bottom {
