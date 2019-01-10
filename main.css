@@ -39,69 +39,32 @@ body {
     text-shadow: 0 0 5px white;
 }
 
-#start {
-    display: flex;
-    height: calc(100vh - 60px);
+#front-page {
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    top: 60px;
-}
-
-#start h1 {
-    position: absolute;
-    top: 50%;
-    font-family: "Courier New";
-}
-
-#start h2 {
-    position: absolute;
-    top: 60%;
-    font-family: "Courier New";
-}
-
-#sec2 {
+    background-image: url("bilder/forside.jpg");
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-color: #A2C3DF;
-}
-
-#logo {
-    height: 85%;
-}
-
-#logoTekst {
-    height: 85%;
-    width: 50%;
-    background-color: #E3E3E3;
-}
-
-#reklame {
-    position: relative;
-    width: 750px;
-    height: 750px;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-form {
-    display: block;
-    padding: 2cm;
-    border-radius: 4px;
+    justify-content: center;
 }
 
 .bottom {
     align-items: center;
-    background-color: #bdbebf;
+    background-color: #a7abb2;
     display: flex;
     height: 40px;
     justify-content: space-around;
     width: 100%;
 }
 
+.bottom a {
+    height: 35px;
+    text-decoration: none;
+    width: 35px;
+}
+
 .bottom img {
-    border-radius: 500px;
+    border-radius: 100%;
     height: 35px;
     width: 35px;
 }
