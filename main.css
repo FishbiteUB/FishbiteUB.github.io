@@ -45,36 +45,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-<<<<<<< HEAD
     justify-content: center;
-=======
-    background-color: #A2C3DF;
-}
-
-#logo {
-    height: 85%;
-}
-
-#logoTekst {
-    height: 85%;
-    width: 50%;
-    background-color: #E3E3E3;
-}
-
-#reklame {
-    position: relative;
-    width: 750px;
-    height: 750px;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-form {
-    display: block;
-    padding: 2cm;
-    border-radius: 4px;
->>>>>>> c1f9691207ea01f19dcdd80c76c68867fe9f45cc
 }
 
 .bottom {
