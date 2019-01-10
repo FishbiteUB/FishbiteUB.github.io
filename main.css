@@ -91,4 +91,10 @@ input {
     background-color: white;
     padding: 5px;
     margin: 15px;
+    max-width: 50%;
   }
+
+.button {
+    width:25%;
+    
+}
