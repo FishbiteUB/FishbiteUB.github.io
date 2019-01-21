@@ -43,7 +43,7 @@ body {
 #nav ul li a.active {
     text-shadow: none;
     cursor: default;
-    text-decoration: underline dotted black;
+    text-decoration: underline solid lightblue;
 }
 
 #front-page {
