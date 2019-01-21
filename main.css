@@ -40,9 +40,10 @@ body {
     text-shadow: 0 0 5px white;
 }
 
-.active {
+#nav ul li a.active {
     text-shadow: none;
     cursor: default;
+    text-decoration: underline dotted black;
 }
 
 #front-page {
