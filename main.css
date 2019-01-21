@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #A2C3DF;
+    background-color: #A1BEDE;
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
@@ -42,11 +42,15 @@ body {
 
 #front-page {
     align-items: center;
-    background-image: url("bilder/forside.jpg");
+    background-image: url("bilder/logo1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 60px);
     justify-content: center;
+    margin-top: 40px;
 }
 
 #front-page h1, h2 {
@@ -60,6 +64,10 @@ body {
     height: 40px;
     justify-content: space-around;
     width: 100%;
+}
+
+.bottom div {
+
 }
 
 .bottom a {
@@ -78,9 +86,9 @@ form {
     display: flex;
     flex-direction: column;
     background-color: rgb(101, 166, 223);
-    width:50%;
+    width: 50%;
     border-radius: 30px;
-    margin:auto;
+    margin: auto;
     padding: 1cm;
 }
 
