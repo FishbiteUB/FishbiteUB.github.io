@@ -43,6 +43,7 @@ body {
 #nav ul li a.active {
     text-shadow: none;
     cursor: default;
+    text-decoration: underline dotted black;
 }
 
 #front-page {
