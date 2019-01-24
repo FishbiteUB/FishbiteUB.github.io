@@ -47,20 +47,47 @@ body {
 }
 
 #front-page {
-    align-items: center;
     background-image: url("bilder/logo1.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     display: flex;
-    flex-direction: column;
     height: calc(100vh - 60px);
-    justify-content: center;
     margin-top: 40px;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-#front-page h1, h2 {
-    font-size: 250%;
+#main-page {
+    background: #fefefe;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main-page div {
+    font-size: 150%;
+    width: 40vw;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    width: 17px;
+    height: 17px;
+    transform: rotate(45deg);
+    border-bottom: 3px solid #333333;
+    border-right: 3px solid #333333;
 }
 
 .bottom {
