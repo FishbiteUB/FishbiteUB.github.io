@@ -96,7 +96,7 @@ body {
     align-items: center;
     background-color: #a7abb2;
     display: flex;
-    height: 40px;
+    height: 80px;
     justify-content: space-around;
     width: 100%;
 }
