@@ -162,4 +162,13 @@ input {
     #main-page {
         flex-direction: column;
     }
+
+    #main-page div {
+        width: 80%;
+    }
+
+    #main-page iframe {
+        width: 80%;
+        height: 200px;
+    }
 }
