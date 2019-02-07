@@ -27,9 +27,9 @@
         </div>
         <div>
         <input type="radio" name="entry.1495122074" id="a1" value="50 gram"/>
-        <label for="a1">50 gram (50kr)</label>
+        <label for="a1">50 gram (29kr)</label>
         <input type="radio" name="entry.1495122074" id="a2" value="100 gram"/>
-        <label for="a2">100 gram (100kr)</label>
+        <label for="a2">100 gram (49kr)</label>
         </div>
         <br>
         <div>
@@ -77,14 +77,22 @@
         <div id="pris">Pris: 0kr</div>
         <input class="button" type="submit" value="Bestill">
     </form>
+    <div class="bottom" style="margin-top: 20px;">
+        <p>Mail: <a href="mailto: fishbite.ngv@hotmail.com">fishbite.ngv@hotmail.com</a></p>
+        <p>Ida Marie Helset Hagen (Daglig Leder): <a href="tel:+4747688522">476 88 522</a></p>
+        <div style="display: flex; justify-content: space-between; width: 80px;">
+            <a href="https://www.facebook.com/FishbiteUB/" target="_blank"> <img src="../bilder/fblogo.jpg" alt="Facebook"> </a>
+            <a href="https://www.instagram.com/fishbiteub/" target="_blank"> <img src="../bilder/instagram.png" alt="Instagram"> </a>
+        </div>
+    </div>
 
     <script>
         function myFunc() {
         var typ="50";
         if (document.getElementById("a1").checked){
-            typ = "50";
+            typ = "29";
         } else if(document.getElementById("a2").checked){
-            typ="100";
+            typ="49";
         }
 
         var cuant="1";
