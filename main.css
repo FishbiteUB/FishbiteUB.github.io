@@ -153,3 +153,13 @@ input {
 .kjeks img {
     margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 15cm) {
+    #front-page {
+        flex-direction: column;
+    }
+    
+    #main-page {
+        flex-direction: column;
+    }
+}
